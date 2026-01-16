@@ -1,6 +1,6 @@
 # Marketplace-Cotiendas
 
-![Marketplace-Cotiendas](./public/logo.png)
+![Marketplace-Cotiendas](./public/alabosta-logo.png)
 
 **Marketplace-Cotiendas** is a comprehensive online marketplace designed to help small businesses establish a digital storefront. The platform includes store ratings, reviews, product reviews, and advertising revenue features, enabling businesses to connect with customers efficiently.
 
