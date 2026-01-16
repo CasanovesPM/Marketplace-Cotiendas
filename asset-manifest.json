@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Marketplace-Cotiendas/static/css/main.c5934623.css",
+    "main.js": "/Marketplace-Cotiendas/static/js/main.7b36db3d.js",
+    "static/js/213.d7adcc60.chunk.js": "/Marketplace-Cotiendas/static/js/213.d7adcc60.chunk.js",
+    "static/js/732.2663938e.chunk.js": "/Marketplace-Cotiendas/static/js/732.2663938e.chunk.js",
+    "static/js/453.5215d8d7.chunk.js": "/Marketplace-Cotiendas/static/js/453.5215d8d7.chunk.js",
+    "static/media/logo-color.png": "/Marketplace-Cotiendas/static/media/logo-color.2469a1ca1ac7713c3f47.png",
+    "static/media/logo.png": "/Marketplace-Cotiendas/static/media/logo.e341a6ec7fc68cdaa14b.png",
+    "index.html": "/Marketplace-Cotiendas/index.html",
+    "main.c5934623.css.map": "/Marketplace-Cotiendas/static/css/main.c5934623.css.map",
+    "main.7b36db3d.js.map": "/Marketplace-Cotiendas/static/js/main.7b36db3d.js.map",
+    "213.d7adcc60.chunk.js.map": "/Marketplace-Cotiendas/static/js/213.d7adcc60.chunk.js.map",
+    "732.2663938e.chunk.js.map": "/Marketplace-Cotiendas/static/js/732.2663938e.chunk.js.map",
+    "453.5215d8d7.chunk.js.map": "/Marketplace-Cotiendas/static/js/453.5215d8d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5934623.css",
+    "static/js/main.7b36db3d.js"
+  ]
+}
