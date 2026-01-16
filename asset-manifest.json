@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/Marketplace-Cotiendas/static/css/main.99d5d39b.css",
-    "main.js": "/Marketplace-Cotiendas/static/js/main.72f99ee2.js",
+    "main.css": "/Marketplace-Cotiendas/static/css/main.8ac7a243.css",
+    "main.js": "/Marketplace-Cotiendas/static/js/main.b83850ec.js",
     "static/js/453.1a89d006.chunk.js": "/Marketplace-Cotiendas/static/js/453.1a89d006.chunk.js",
     "static/media/fa-solid-900.ttf": "/Marketplace-Cotiendas/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/Marketplace-Cotiendas/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/fa-solid-900.woff2": "/Marketplace-Cotiendas/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
     "static/media/fa-brands-400.woff2": "/Marketplace-Cotiendas/static/media/fa-brands-400.c210719e60948b211a12.woff2",
-    "static/media/banner-home.png": "/Marketplace-Cotiendas/static/media/banner-home.2930d2c63d92d2d99ad3.png",
     "static/media/fa-regular-400.ttf": "/Marketplace-Cotiendas/static/media/fa-regular-400.914997e1bdfc990d0897.ttf",
     "static/media/fa-regular-400.woff2": "/Marketplace-Cotiendas/static/media/fa-regular-400.89999bdf5d835c012025.woff2",
     "static/media/fa-v4compatibility.ttf": "/Marketplace-Cotiendas/static/media/fa-v4compatibility.da94ef451f4969af06e6.ttf",
     "static/media/fa-v4compatibility.woff2": "/Marketplace-Cotiendas/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/Marketplace-Cotiendas/index.html",
-    "main.99d5d39b.css.map": "/Marketplace-Cotiendas/static/css/main.99d5d39b.css.map",
-    "main.72f99ee2.js.map": "/Marketplace-Cotiendas/static/js/main.72f99ee2.js.map",
+    "main.8ac7a243.css.map": "/Marketplace-Cotiendas/static/css/main.8ac7a243.css.map",
+    "main.b83850ec.js.map": "/Marketplace-Cotiendas/static/js/main.b83850ec.js.map",
     "453.1a89d006.chunk.js.map": "/Marketplace-Cotiendas/static/js/453.1a89d006.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99d5d39b.css",
-    "static/js/main.72f99ee2.js"
+    "static/css/main.8ac7a243.css",
+    "static/js/main.b83850ec.js"
   ]
 }
