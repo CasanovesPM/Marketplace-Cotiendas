@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Marketplace-Cotiendas/static/css/main.c5934623.css",
-    "main.js": "/Marketplace-Cotiendas/static/js/main.cc3d0a38.js",
-    "static/js/213.6c3084f3.chunk.js": "/Marketplace-Cotiendas/static/js/213.6c3084f3.chunk.js",
-    "static/js/732.c8c98e67.chunk.js": "/Marketplace-Cotiendas/static/js/732.c8c98e67.chunk.js",
-    "static/js/453.137bff00.chunk.js": "/Marketplace-Cotiendas/static/js/453.137bff00.chunk.js",
-    "static/media/logo-color.png": "/Marketplace-Cotiendas/static/media/logo-color.2469a1ca1ac7713c3f47.png",
-    "static/media/logo.png": "/Marketplace-Cotiendas/static/media/logo.e341a6ec7fc68cdaa14b.png",
-    "index.html": "/Marketplace-Cotiendas/index.html",
-    "main.c5934623.css.map": "/Marketplace-Cotiendas/static/css/main.c5934623.css.map",
-    "main.cc3d0a38.js.map": "/Marketplace-Cotiendas/static/js/main.cc3d0a38.js.map",
-    "213.6c3084f3.chunk.js.map": "/Marketplace-Cotiendas/static/js/213.6c3084f3.chunk.js.map",
-    "732.c8c98e67.chunk.js.map": "/Marketplace-Cotiendas/static/js/732.c8c98e67.chunk.js.map",
-    "453.137bff00.chunk.js.map": "/Marketplace-Cotiendas/static/js/453.137bff00.chunk.js.map"
+    "main.css": "/patron-express/static/css/main.c5934623.css",
+    "main.js": "/patron-express/static/js/main.688212ee.js",
+    "static/js/213.f23a7942.chunk.js": "/patron-express/static/js/213.f23a7942.chunk.js",
+    "static/js/732.4c9d8c2e.chunk.js": "/patron-express/static/js/732.4c9d8c2e.chunk.js",
+    "static/js/453.432e1b22.chunk.js": "/patron-express/static/js/453.432e1b22.chunk.js",
+    "static/media/logo-color.png": "/patron-express/static/media/logo-color.2469a1ca1ac7713c3f47.png",
+    "static/media/logo.png": "/patron-express/static/media/logo.e341a6ec7fc68cdaa14b.png",
+    "index.html": "/patron-express/index.html",
+    "main.c5934623.css.map": "/patron-express/static/css/main.c5934623.css.map",
+    "main.688212ee.js.map": "/patron-express/static/js/main.688212ee.js.map",
+    "213.f23a7942.chunk.js.map": "/patron-express/static/js/213.f23a7942.chunk.js.map",
+    "732.4c9d8c2e.chunk.js.map": "/patron-express/static/js/732.4c9d8c2e.chunk.js.map",
+    "453.432e1b22.chunk.js.map": "/patron-express/static/js/453.432e1b22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c5934623.css",
-    "static/js/main.cc3d0a38.js"
+    "static/js/main.688212ee.js"
   ]
 }
