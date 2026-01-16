@@ -1,0 +1,485 @@
+/* === Contenedor General === */
+.PerfilUsuarioTotal {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+  .PerfilUsuarioTotal {
+    flex-direction: column;
+  }
+}
+
+/* === Panel principal (derecha) === */
+.panelPerfilUsuario {
+  flex: 1;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+/* === Aside Perfil (izquierda) === */
+.asidePerfilUsuario {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Responsive para aside en pantallas grandes */
+@media (min-width: 993px) {
+  .asidePerfilUsuario {
+    text-align: center;
+    width: 30%;
+  }
+}
+
+/* === Botones === */
+.nav-btn,
+.vender-btn,
+.logout-btn,
+.btn-hotsale,
+.btn-puntos {
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.nav-btn {
+  background-color: #FF6D00;
+  color: white;
+  border: 2px solid #FF6D00;
+}
+.nav-btn:hover {
+  background-color: white;
+  color: #FF6D00;
+}
+
+.vender-btn {
+  background-color: #28a745;
+  color: white;
+  border: 2px solid #28a745;
+}
+.vender-btn:hover {
+  background-color: white;
+  color: #28a745;
+}
+
+.logout-btn {
+  background-color: #d32f2f;
+  color: white;
+  border: 2px solid #d32f2f;
+}
+.logout-btn:hover {
+  background-color: white;
+  color: #d32f2f;
+}
+
+.btn-puntos {
+  background-color: #2e7d32;
+  color: white;
+      border: 2px solid #2e7d32;
+
+}
+.btn-puntos:hover {
+  background-color: white;
+  color: #2e7d32;
+}
+
+.btn-recarga {
+    background-color: white;
+  color: #2e7d32;
+    border: 2px solid #2e7d32;
+}
+
+.btn-recarga:hover {
+  background-color: #2e7d32;
+  color: white;
+}
+
+
+.btn-hotsale {
+  background-color: #FF4500;
+  color: white;
+  border: 2px solid #FF6347;
+  animation: fuego 1s infinite alternate;
+}
+
+@keyframes fuego {
+  0% { box-shadow: 0 0 5px 2px #FFA500; }
+  100% { box-shadow: 0 0 15px 6px #FF6347; }
+}
+
+/* === Banner Tienda === */
+.banner-tienda {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.banner-tienda img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-banner {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.3s;
+}
+.banner-tienda:hover .overlay-banner {
+  opacity: 1;
+}
+
+/* === Modal === */
+.modal-overlay, .modal-overlayx {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex; justify-content: center; align-items: center;
+  z-index: 1000;
+}
+
+.modal-content-publicar, .modal-contentx {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 95%;
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  overflow-y: auto;
+}
+
+.modal-contentx input,
+.modal-contentx select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.modal-contentx img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* === Grillas === */
+.gridStyle,
+.grid-style {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.custom-swal-popup {
+  width: 400px;
+  max-width: 90vw;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.modal-overlayx {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modal-contentx {
+  background: white;
+  padding: 30px;
+  width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.modal-contentx input , select{
+  text-align: center !important;
+}
+
+.prodsPubliHome {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  .productos-grid-responsive {
+      display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+  }
+
+  .productos-busqueda {
+    text-align: left !important;
+    width: 30% !important;
+    border-radius: 6px;
+    padding: 5px;
+  }
+
+  .headerProds {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+@media (max-width: 768px) {
+
+ .productos-busqueda {
+    text-align: left !important;
+    width: 100% !important;
+    border-radius: 6px;
+    padding: 5px;
+  }
+
+    .modal-content-publicar {
+    width: 100vw !important;
+    height: 100vh !important;
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+    border-radius: 0 !important;
+    padding: 20px !important;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .modal-content-publicar > form {
+    flex: 1;
+    overflow-y: auto;
+  }
+
+  .modal-content-publicar .logout-btn {
+    margin-top: 10px;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #ccc;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+
+  
+  .productos-grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.prodsPubliHome {
+  width: 100%;
+
+  display: inline-block;
+  text-align: center;
+}
+  .panelPerfilUsuario {
+  flex: 1;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 8px;
+  width: 100%;
+}
+  .mobile-nav-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+
+    .mobile-nav-container-prods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .custom-swal-popup {
+    width: 90vw !important;
+    padding: 15px !important;
+  }
+
+    .custom-swal-popup-2 {
+    width: 100vw !important;
+    height: 100vh !important;
+    max-width: 100vw !important;
+    max-height: 100vh !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  .custom-swal-popup-2 .swal2-html-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .custom-swal-popup-2 .swal2-actions {
+    position: sticky;
+    bottom: 0;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    z-index: 10;
+  }
+
+  .custom-swal-popup-2 input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .custom-swal-popup-2 label {
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: block;
+  }
+
+    .modal-overlayx {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+  }
+
+  .modal-contentx-mobile {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-contentx-mobile h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .modal-contentx-mobile input,
+  .modal-contentx-mobile select,
+  .modal-contentx-mobile button {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 6px;
+  }
+
+  .modal-contentx-mobile button.nav-btnx,
+  .modal-contentx-mobile button.logout-btnx {
+    font-weight: bold;
+  }
+
+  .modal-contentx-mobile img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .modal-contentx-mobile label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .modal-contentx-mobile > div:last-child {
+    margin-top: auto; /* Empuja los botones al final si hay espacio */
+    display: flex;
+    gap: 10px;
+  }
+  .mobile-nav-btn {
+    background-color: #f0f0f0;
+    border-radius: 12px;
+    padding: 12px 4px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: #333;
+    border: none;
+  }
+
+  .mobile-nav-btn span {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .vender-btn-mobile { background-color: #4caf50; color: white; }
+  .liquidando-btn-mobile { background-color: #ff5722; color: white; }
+  .puntos-btn-mobile { background-color: #2e7d32; color: white; }
+}

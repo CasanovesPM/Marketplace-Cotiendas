@@ -1,0 +1,148 @@
+.contacto-section {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 32px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contacto-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.contacto-header h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.contacto-logo img {
+  max-width: 300px;
+  height: auto;
+}
+
+.contacto-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.contacto-info {
+  flex: 1;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.contacto-form {
+  flex: 2;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.btn-enviar {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn-enviar:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .contacto-layout {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .contacto-container {
+    padding: 24px 16px;
+  }
+
+  .contacto-header {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .contacto-header img {
+    width: 120px;
+    margin-bottom: 8px;
+    align-self: flex-end;
+  }
+
+  .contacto-header h2 {
+    font-size: 22px;
+    margin-bottom: 6px;
+  }
+
+  .contacto-header p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .contacto-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .contacto-row > div {
+    min-width: 100%;
+  }
+
+  .contacto-form input,
+  .contacto-form textarea {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  .contacto-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    margin-top: 12px;
+  }
+}
+

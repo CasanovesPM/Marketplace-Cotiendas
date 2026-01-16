@@ -1,0 +1,81 @@
+/* DashboardPuntos.css */
+.dashboard-puntos-container,
+.dashboard-puntos-pago {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 30px;
+}
+
+.dashboard-puntos-left,
+.dashboard-puntos-right {
+  flex: 1;
+}
+
+.dashboard-puntos-left h2 {
+  margin-bottom: 10px;
+}
+
+.dashboard-puntos-puntos {
+  color: #2e7d32;
+  margin-left: 10px;
+}
+
+.dashboard-historial-container {
+  max-height: 240px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.dashboard-historial-item {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+}
+
+.dashboard-historial-item small {
+  color: #888;
+}
+
+.dashboard-historial-item .positivo {
+  color: #388e3c;
+}
+
+.dashboard-historial-item .negativo {
+  color: red;
+}
+
+.dashboard-puntos-right ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.dashboard-puntos-right p {
+  font-style: italic;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .dashboard-puntos-container,
+  .dashboard-puntos-pago {
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .dashboard-puntos-container {
+    max-width: 100%;
+  }
+
+  .dashboard-puntos-left,
+  .dashboard-puntos-right {
+    width: 100%;
+  }
+}

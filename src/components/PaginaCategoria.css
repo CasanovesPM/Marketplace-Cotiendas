@@ -1,0 +1,121 @@
+.categoria-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  flex-wrap: wrap;
+}
+
+.publicidad {
+  width: 120px;
+}
+
+.publicidad img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.productos-container {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.categoria-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.categoria-header h2 {
+  color: #02234e;
+  margin-bottom: 10px;
+}
+
+.filtro-precio {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  gap: 10px;
+  background-color: #f0f0f0;
+  padding: 8px 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  flex-wrap: nowrap; /* Evita que se baje de línea */
+    margin-bottom: 10px;
+
+}
+
+.filtro-precio label {
+  font-weight: 500;
+  color: #02234e;
+  margin: 0;
+  white-space: nowrap; /* Mantiene el texto en una línea */
+}
+
+.filtro-precio input[type="range"] {
+  width: 200px; /* Ajusta el ancho del slider */
+  appearance: none;
+  background: #ff6d00;
+  height: 6px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.filtro-precio input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #02234e;
+  border-radius: 50%;
+}
+
+.filtro-precio span {
+  font-weight: 600;
+  color: #02234e;
+  white-space: nowrap; /* Evita salto de línea */
+}
+
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .categoria-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .publicidad, .productos-container {
+    width: 100%;
+  }
+
+  .categoria-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filtro-precio {
+    margin-top: 10px;
+  }
+}
